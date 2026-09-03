@@ -1,0 +1,62 @@
+name: Import clean fixed MVS pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-fixed-mvs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out delivery repository
+        uses: actions/checkout@v4
+        with:
+          path: delivery
+
+      - name: Check out clean repaired MVS source
+        uses: actions/checkout@v4
+        with:
+          repository: lordy11/ModularVestSystem-rework
+          ref: main
+          path: source
+          sparse-checkout: |
+            pack/ModularVestSystem
+            pack/AddonBuilder_Include.txt
+            pack/Mod_Files
+            pack/README.txt
+          sparse-checkout-cone-mode: false
+
+      - name: Copy only Addon Builder files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf delivery/pack
+          mkdir -p delivery/pack
+          cp -a source/pack/ModularVestSystem delivery/pack/
+          cp -a source/pack/AddonBuilder_Include.txt delivery/pack/
+          cp -a source/pack/Mod_Files delivery/pack/
+          cp -a source/pack/README.txt delivery/pack/
+          test -f 'delivery/pack/ModularVestSystem/config.cpp'
+          test -f 'delivery/pack/ModularVestSystem/$PBOPREFIX$'
+          test "$(find delivery/pack/ModularVestSystem -type f | wc -l)" -eq 876
+
+      - name: Commit imported fixed pack
+        working-directory: delivery
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pack
+          if git diff --cached --quiet; then
+            echo "Fixed MVS pack is already current."
+            exit 0
+          fi
+          git commit -m "Add clean fixed MVS Addon Builder source"
+          git push
