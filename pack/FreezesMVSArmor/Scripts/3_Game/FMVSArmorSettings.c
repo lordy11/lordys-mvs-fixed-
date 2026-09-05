@@ -27,7 +27,7 @@ class FMVSArmorSettings
 
     void FMVSArmorSettings()
     {
-        ConfigVersion = 1;
+        ConfigVersion = 2;
         Enabled = true;
         DefaultHelmetDamageBlockedPercent = 50;
         DefaultVestDamageBlockedPercent = 50;
@@ -39,7 +39,14 @@ class FMVSArmorSettings
         DebugLogging = false;
         HelmetOverrides = new array<ref FMVSArmorRule>;
         VestOverrides = new array<ref FMVSArmorRule>;
+
+        // Base-class rules automatically cover every child classname.
         HelmetOverrides.Insert(new FMVSArmorRule("MVS_Altyn_Helmet_Base", 70));
+        HelmetOverrides.Insert(new FMVSArmorRule("MVS_ArmoredHelmet_Base", 65));
         VestOverrides.Insert(new FMVSArmorRule("ModularVestSystem_Heavy", 65));
+        VestOverrides.Insert(new FMVSArmorRule("ModularChestRig_Base", 50));
+
+        // To override one exact item, add that concrete classname as another rule.
+        // Exact classname rules take priority over matching base-class rules.
     }
 };
