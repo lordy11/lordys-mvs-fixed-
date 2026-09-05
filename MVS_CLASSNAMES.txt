@@ -1,0 +1,662 @@
+﻿MODULAR VEST SYSTEM - COMPLETE SPAWNABLE CLASSNAME LIST
+Generated directly from: pack\ModularVestSystem\config.cpp
+Only classes with scope = 2 are included.
+Generated: 2026-09-05 20:00:59
+
+TOTAL SPAWNABLE CLASSNAMES: 575
+
+======================================================================
+VESTS / CHEST RIGS
+COUNT: 16
+======================================================================
+MVS_ChestRig_Black  |  MVS Chestrig - Black
+MVS_ChestRig_ERDL  |  MVS Chestrig - ERDL
+MVS_ChestRig_Multicam  |  MVS Chestrig - Multicam
+MVS_ChestRig_Multicam_Black  |  MVS Chestrig - Multicam Black
+MVS_ChestRig_Multicam_Tropic  |  MVS Chestrig - Multicam Tropic
+MVS_ChestRig_OD  |  MVS Chestrig - OD
+MVS_ChestRig_Snow  |  MVS Chestrig - Snow
+MVS_ChestRig_Tan  |  MVS Chestrig - Tan
+MVS_Combat_Vest_Black  |  MVS - Black
+MVS_Combat_Vest_ERDL  |  MVS - ERDL
+MVS_Combat_Vest_Multicam  |  MVS - Multicam
+MVS_Combat_Vest_Multicam_Black  |  MVS - Multicam Black
+MVS_Combat_Vest_Multicam_Tropic  |  MVS - Multicam Tropic
+MVS_Combat_Vest_OD  |  MVS - OD
+MVS_Combat_Vest_Snow  |  MVS - Snow
+MVS_Combat_Vest_Tan  |  MVS - Tan
+
+======================================================================
+HEAVY VESTS
+COUNT: 16
+======================================================================
+MVS_Combat_Vest_Heavy_Black  |  MVS Heavy - Black
+MVS_Combat_Vest_Heavy_ERDL  |  MVS Heavy - ERDL
+MVS_Combat_Vest_Heavy_Multicam  |  MVS Heavy - Multicam
+MVS_Combat_Vest_Heavy_Multicam_Black  |  MVS Heavy - Multicam Black
+MVS_Combat_Vest_Heavy_Multicam_Tropic  |  MVS Heavy - Multicam Tropic
+MVS_Combat_Vest_Heavy_OD  |  MVS Heavy - OD
+MVS_Combat_Vest_Heavy_Snow  |  MVS Heavy - Snow
+MVS_Combat_Vest_Heavy_Tan  |  MVS Heavy - Tan
+MVS_Heavy_Pouch_Black  |  MVS Heavy LMG Pouch - Black
+MVS_Heavy_Pouch_ERDL  |  MVS Heavy LMG Pouch - ERDL
+MVS_Heavy_Pouch_Multicam  |  MVS Heavy LMG Pouch - Multicam
+MVS_Heavy_Pouch_Multicam_Black  |  MVS Heavy LMG Pouch - Multicam Black
+MVS_Heavy_Pouch_Multicam_Tropic  |  MVS Heavy LMG Pouch - Multicam Tropic
+MVS_Heavy_Pouch_OD  |  MVS Heavy LMG Pouch - OD
+MVS_Heavy_Pouch_Snow  |  MVS Heavy LMG Pouch - Snow
+MVS_Heavy_Pouch_Tan  |  MVS Heavy LMG Pouch - Tan
+
+======================================================================
+HELMETS
+COUNT: 53
+======================================================================
+MVS_6B47_Helmet_Black  |  MVS 6B47 - Black
+MVS_6B47_Helmet_OD  |  MVS 6B47 - OD
+MVS_6B47_Helmet_Tan  |  MVS 6B47 - Tan
+MVS_Altyn_Black  |  MVS Altyn Helmet - Black
+MVS_Altyn_OD  |  MVS Altyn Helmet - OD
+MVS_Altyn_Tan  |  MVS Altyn Helmet - Tan
+MVS_Altyn_Visor_Black  |  MVS Altyn Visor - Black
+MVS_Altyn_Visor_Lifted_Black  |  MVS Altyn Visor - Black
+MVS_Altyn_Visor_Lifted_OD  |  MVS Altyn Visor - OD
+MVS_Altyn_Visor_Lifted_Tan  |  MVS Altyn Visor - Tan
+MVS_Altyn_Visor_OD  |  MVS Altyn Visor - OD
+MVS_Altyn_Visor_Tan  |  MVS Altyn Visor - Tan
+MVS_ArmoredHelmet_Black  |  MVS Armored Helmet - Black
+MVS_ArmoredHelmet_ERDL  |  MVS Armored Helmet - ERDL
+MVS_ArmoredHelmet_Multicam  |  MVS Armored Helmet - Multicam
+MVS_ArmoredHelmet_Multicam_Black  |  MVS Armored Helmet - Multicam Black
+MVS_ArmoredHelmet_Multicam_Tropic  |  MVS Armored Helmet - Multicam Tropic
+MVS_ArmoredHelmet_OD  |  MVS Armored Helmet - OD
+MVS_ArmoredHelmet_Snow  |  MVS Armored Helmet - Snow
+MVS_ArmoredHelmet_Tan  |  MVS Armored Helmet - Tan
+MVS_Helmet_01_Black  |  MVS Combat Helmet - Black
+MVS_Helmet_01_ERDL  |  MVS Combat Helmet - ERDL
+MVS_Helmet_01_Multicam  |  MVS Combat Helmet - Multicam
+MVS_Helmet_01_Multicam_Black  |  MVS Combat Helmet - Multicam Black
+MVS_Helmet_01_Multicam_Tropic  |  MVS Combat Helmet - Multicam Tropic
+MVS_Helmet_01_OD  |  MVS Combat Helmet - OD
+MVS_Helmet_01_Snow  |  MVS Combat Helmet - Snow
+MVS_Helmet_01_Tan  |  MVS Combat Helmet - Tan
+MVS_Helmet_01_Tan_Worn  |  MVS Combat Helmet - Scuffed
+MVS_Helmet_02_Black  |  MVS Combat Helmet - Black
+MVS_Helmet_02_ERDL  |  MVS Combat Helmet - ERDL
+MVS_Helmet_02_Multicam  |  MVS Combat Helmet - Multicam
+MVS_Helmet_02_Multicam_Black  |  MVS Combat Helmet - Multicam Black
+MVS_Helmet_02_Multicam_Tropic  |  MVS Combat Helmet - Multicam Tropic
+MVS_Helmet_02_OD  |  MVS Combat Helmet - OD
+MVS_Helmet_02_Snow  |  MVS Combat Helmet - Snow
+MVS_Helmet_02_Tan  |  MVS Combat Helmet - Tan
+MVS_OpsCore_Black  |  MVS High Cut Helmet - Black
+MVS_OpsCore_ERDL  |  MVS High Cut Helmet - ERDL
+MVS_OpsCore_Multicam  |  MVS High Cut Helmet - Multicam
+MVS_OpsCore_Multicam_Black  |  MVS High Cut Helmet - Multicam Black
+MVS_OpsCore_Multicam_Tropic  |  MVS High Cut Helmet - Multicam Tropic
+MVS_OpsCore_OD  |  MVS High Cut Helmet - OD
+MVS_OpsCore_Snow  |  MVS High Cut Helmet - Snow
+MVS_OpsCore_Tan  |  MVS High Cut Helmet - Tan
+MVS_WarriorHelmet_Black  |  MVS Warrior Helmet - Black
+MVS_WarriorHelmet_ERDL  |  MVS Warrior Helmet - ERDL
+MVS_WarriorHelmet_Multicam  |  MVS Warrior Helmet - Multicam
+MVS_WarriorHelmet_Multicam_Black  |  MVS Warrior Helmet - Multicam Black
+MVS_WarriorHelmet_Multicam_Tropic  |  MVS Warrior Helmet - Multicam Tropic
+MVS_WarriorHelmet_OD  |  MVS Warrior Helmet - OD
+MVS_WarriorHelmet_Snow  |  MVS Warrior Helmet - Snow
+MVS_WarriorHelmet_Tan  |  MVS Warrior Helmet - Tan
+
+======================================================================
+BACKPACKS
+COUNT: 40
+======================================================================
+MVS_Assault_Pack_Black  |  MVS Raider Pack - Black
+MVS_Assault_Pack_ERDL  |  MVS Raider Pack - ERDL
+MVS_Assault_Pack_Multicam  |  MVS Raider Pack - Multicam
+MVS_Assault_Pack_Multicam_Black  |  MVS Raider Pack - Multicam Black
+MVS_Assault_Pack_Multicam_Tropic  |  MVS Raider Pack - Multicam Tropic
+MVS_Assault_Pack_OD  |  MVS Raider Pack - OD
+MVS_Assault_Pack_Snow  |  MVS Raider Pack - Snow
+MVS_Assault_Pack_Tan  |  MVS Raider Pack - Tan
+MVS_Compact_1_Black  |  MVS Compact Pack 1 - Black
+MVS_Compact_1_ERDL  |  MVS Compact Pack 1 - ERDL
+MVS_Compact_1_Multicam  |  MVS Compact Pack 1 - Multicam
+MVS_Compact_1_Multicam_Black  |  MVS Compact Pack 1 - Multicam Black
+MVS_Compact_1_Multicam_Tropic  |  MVS Compact Pack 1 - Multicam Tropic
+MVS_Compact_1_OD  |  MVS Compact Pack 1 - OD
+MVS_Compact_1_Snow  |  MVS Compact Pack 1 - Snow
+MVS_Compact_1_Tan  |  MVS Compact Pack 1 - Tan
+MVS_Compact_2_Black  |  MVS Compact Pack 2 - Black
+MVS_Compact_2_ERDL  |  MVS Compact Pack 2 - ERDL
+MVS_Compact_2_Multicam  |  MVS Compact Pack 2 - Multicam
+MVS_Compact_2_Multicam_Black  |  MVS Compact Pack 2 - Multicam Black
+MVS_Compact_2_Multicam_Tropic  |  MVS Compact Pack 2 - Multicam Tropic
+MVS_Compact_2_OD  |  MVS Compact Pack 2 - OD
+MVS_Compact_2_Snow  |  MVS Compact Pack 2 - Snow
+MVS_Compact_2_Tan  |  MVS Compact Pack 2 - Tan
+MVS_Pack_Black  |  MVS Combat Pack - Black
+MVS_Pack_ERDL  |  MVS Combat Pack - ERDL
+MVS_Pack_Multicam  |  MVS Combat Pack - Multicam
+MVS_Pack_Multicam_Black  |  MVS Combat Pack - Multicam Black
+MVS_Pack_Multicam_Tropic  |  MVS Combat Pack - Multicam Tropic
+MVS_Pack_OD  |  MVS Combat Pack - OD
+MVS_Pack_Snow  |  MVS Combat Pack - Snow
+MVS_Pack_Tan  |  MVS Combat Pack - Tan
+MVS_SlingPack_Black  |  MVS Sling Pack - Black
+MVS_SlingPack_ERDL  |  MVS Sling Pack - ERDL
+MVS_SlingPack_Multicam  |  MVS Sling Pack - Multicam
+MVS_SlingPack_Multicam_Black  |  MVS Sling Pack - Multicam Black
+MVS_SlingPack_Multicam_Tropic  |  MVS Sling Pack - Multicam Tropic
+MVS_SlingPack_OD  |  MVS Sling Pack - OD
+MVS_SlingPack_Snow  |  MVS Sling Pack - Snow
+MVS_SlingPack_Tan  |  MVS Sling Pack - Tan
+
+======================================================================
+BELTS
+COUNT: 9
+======================================================================
+MVS_Belt_Black  |  MVS Combat Belt - Black
+MVS_Belt_ERDL  |  MVS Combat Belt - ERDL
+MVS_Belt_Multicam  |  MVS Combat Belt - Multicam
+MVS_Belt_Multicam_Black  |  MVS Combat Belt - Multicam Black
+MVS_Belt_Multicam_Tropic  |  MVS Combat Belt - Multicam Tropic
+MVS_Belt_OD  |  MVS Combat Belt - OD
+MVS_Belt_Snow  |  MVS Combat Belt - Snow
+MVS_Belt_Tan  |  MVS Combat Belt - Tan
+ProxyspawnBelt
+
+======================================================================
+POUCHES / MOLLE
+COUNT: 58
+======================================================================
+MVS_Admin_Pouch_Black  |  MVS Admin Pouch - Black
+MVS_Admin_Pouch_ERDL  |  MVS Admin Pouch - ERDL
+MVS_Admin_Pouch_Multicam  |  MVS Admin Pouch - Multicam
+MVS_Admin_Pouch_Multicam_Black  |  MVS Admin Pouch - Multicam Black
+MVS_Admin_Pouch_Multicam_Tropic  |  MVS Admin Pouch - Multicam Tropic
+MVS_Admin_Pouch_OD  |  MVS Admin Pouch - OD
+MVS_Admin_Pouch_Snow  |  MVS Admin Pouch - Snow
+MVS_Admin_Pouch_Tan  |  MVS Admin Pouch - Tan
+MVS_Magazine_Pouch_Black  |  MVS Magazine Pouch - Black
+MVS_Magazine_Pouch_ERDL  |  MVS Magazine Pouch - ERDL
+MVS_Magazine_Pouch_Multicam  |  MVS Magazine Pouch - Multicam
+MVS_Magazine_Pouch_Multicam_Black  |  MVS Magazine Pouch - Multicam Black
+MVS_Magazine_Pouch_Multicam_Tropic  |  MVS Magazine Pouch - Multicam Tropic
+MVS_Magazine_Pouch_OD  |  MVS Magazine Pouch - OD
+MVS_Magazine_Pouch_Snow  |  MVS Magazine Pouch - Snow
+MVS_Magazine_Pouch_Tan  |  MVS Magazine Pouch - Tan
+MVS_Medical_Pouch_Black  |  MVS Medical Pouch - Black
+MVS_Medical_Pouch_ERDL  |  MVS Medical Pouch - ERDL
+MVS_Medical_Pouch_Multicam  |  MVS Medical Pouch - Multicam
+MVS_Medical_Pouch_Multicam_Black  |  MVS Medical Pouch - Multicam Black
+MVS_Medical_Pouch_Multicam_Tropic  |  MVS Medical Pouch - Multicam Tropic
+MVS_Medical_Pouch_OD  |  MVS Medical Pouch - OD
+MVS_Medical_Pouch_Snow  |  MVS Medical Pouch - Snow
+MVS_Medical_Pouch_Tan  |  MVS Medical Pouch - Tan
+MVS_Molle_Panel_Black  |  MVS Molle Panel - Black
+MVS_Molle_Panel_ERDL  |  MVS Molle Panel - ERDL
+MVS_Molle_Panel_Multicam  |  MVS Molle Panel - Multicam
+MVS_Molle_Panel_Multicam_Black  |  MVS Molle Panel - Multicam Black
+MVS_Molle_Panel_Multicam_Tropic  |  MVS Molle Panel - Multicam Tropic
+MVS_Molle_Panel_OD  |  MVS Molle Panel - OD
+MVS_Molle_Panel_Snow  |  MVS Molle Panel - Snow
+MVS_Molle_Panel_Tan  |  MVS Molle Panel - Tan
+MVS_Taco_Pouch_Black  |  MVS Raid Pouch - Black
+MVS_Taco_Pouch_ERDL  |  MVS Raid Pouch - ERDL
+MVS_Taco_Pouch_Multicam  |  MVS Raid Pouch - Multicam
+MVS_Taco_Pouch_Multicam_Black  |  MVS Raid Pouch - Multicam Black
+MVS_Taco_Pouch_Multicam_Tropic  |  MVS Raid Pouch - Multicam Tropic
+MVS_Taco_Pouch_OD  |  MVS Raid Pouch - OD
+MVS_Taco_Pouch_Snow  |  MVS Raid Pouch - Snow
+MVS_Taco_Pouch_Tan  |  MVS Raid Pouch - Tan
+MVS_Utility_Pouch_Black  |  MVS Utility Pouch - Black
+MVS_Utility_Pouch_ERDL  |  MVS Utility Pouch - ERDL
+MVS_Utility_Pouch_Multicam  |  MVS Utility Pouch - Multicam
+MVS_Utility_Pouch_Multicam_Black  |  MVS Utility Pouch - Multicam Black
+MVS_Utility_Pouch_Multicam_Tropic  |  MVS Utility Pouch - Multicam Tropic
+MVS_Utility_Pouch_OD  |  MVS Utility Pouch - OD
+MVS_Utility_Pouch_Snow  |  MVS Utility Pouch - Snow
+MVS_Utility_Pouch_Tan  |  MVS Utility Pouch - Tan
+Proxymodular_pouch_10
+Proxymodular_pouch_11
+Proxymodular_pouch_12
+Proxymodular_pouch_13
+Proxymodular_pouch_2
+Proxymodular_pouch_4
+Proxymodular_pouch_5
+Proxymodular_pouch_6
+Proxymodular_pouch_8
+Proxymodular_pouch_9
+
+======================================================================
+HOLSTERS
+COUNT: 8
+======================================================================
+MVS_Holster_Black  |  MVS Holster - Black
+MVS_Holster_ERDL  |  MVS Holster - ERDL
+MVS_Holster_Multicam  |  MVS Holster - Multicam
+MVS_Holster_Multicam_Black  |  MVS Holster - Multicam Black
+MVS_Holster_Multicam_Tropic  |  MVS Holster - Multicam Tropic
+MVS_Holster_OD  |  MVS Holster - OD
+MVS_Holster_Snow  |  MVS Holster - Snow
+MVS_Holster_Tan  |  MVS Holster - Tan
+
+======================================================================
+SHEATHS
+COUNT: 8
+======================================================================
+MVS_Sheath_Black  |  MVS Sheath - Black
+MVS_Sheath_ERDL  |  MVS Sheath - ERDL
+MVS_Sheath_Multicam  |  MVS Sheath - Multicam
+MVS_Sheath_Multicam_Black  |  MVS Sheath - Multicam Black
+MVS_Sheath_Multicam_Tropic  |  MVS Sheath - Multicam Tropic
+MVS_Sheath_OD  |  MVS Sheath - OD
+MVS_Sheath_Snow  |  MVS Sheath - Snow
+MVS_Sheath_Tan  |  MVS Sheath - Tan
+
+======================================================================
+CANTEENS
+COUNT: 8
+======================================================================
+MVS_Canteen_Black  |  MVS Canteen - Black
+MVS_Canteen_ERDL  |  MVS Canteen - ERDL
+MVS_Canteen_Multicam  |  MVS Canteen - Multicam
+MVS_Canteen_Multicam_Black  |  MVS Canteen - Multicam Black
+MVS_Canteen_Multicam_Tropic  |  MVS Canteen - Multicam Tropic
+MVS_Canteen_OD  |  MVS Canteen - OD
+MVS_Canteen_Snow  |  MVS Canteen - Snow
+MVS_Canteen_Tan  |  MVS Canteen - Tan
+
+======================================================================
+MASKS / RESPIRATORS
+COUNT: 13
+======================================================================
+MVS_M50Respirator_Black  |  M50 Respirator - Black
+MVS_M50Respirator_OD  |  M50 Respirator - OD
+MVS_M50Respirator_Snow  |  M50 Respirator - Snow
+MVS_M50Respirator_Tan  |  M50 Respirator - Tan
+MVS_PMK2Respirator_Black  |  PMK-2 Respirator - Black
+MVS_PMK2Respirator_OD  |  PMK-2 Respirator - OD
+MVS_PMK2Respirator_Snow  |  PMK-2 Respirator - Snow
+MVS_PMK2Respirator_Tan  |  PMK-2 Respirator - Tan
+MVS_S10Respirator_Black  |  S10 Respirator - Black
+MVS_S10Respirator_FS  |  S10 Respirator - The 4th Survivor
+MVS_S10Respirator_OD  |  S10 Respirator - OD
+MVS_S10Respirator_Snow  |  S10 Respirator - Snow
+MVS_S10Respirator_Tan  |  S10 Respirator - Tan
+
+======================================================================
+CAPS / HEADWEAR
+COUNT: 12
+======================================================================
+MVS_Cap_Black  |  MVS Patrol Cap - Black
+MVS_Cap_ERDL  |  MVS Patrol Cap - ERDL
+MVS_Cap_Multicam  |  MVS Patrol Cap - Multicam
+MVS_Cap_Multicam_Black  |  MVS Patrol Cap - Multicam Black
+MVS_Cap_Multicam_Tropic  |  MVS Patrol Cap - Multicam Tropic
+MVS_Cap_OD  |  MVS Patrol Cap - OD
+MVS_Cap_Snow  |  MVS Patrol Cap - Snow
+MVS_Cap_Tan  |  MVS Patrol Cap - Tan
+MVS_FlatCap_Multicam  |  MVS Flat Cap - Multicam
+MVS_FlatCap_Multicam_Black  |  MVS Flat Cap - Multicam Black
+MVS_FlatCap_Multicam_Tropic  |  MVS Flat Cap - Multicam Tropic
+MVS_FlatCap_Snow  |  MVS Flat Cap - Snow
+
+======================================================================
+CLOTHING / UNIFORMS
+COUNT: 33
+======================================================================
+MVS_CombatPants_Black  |  MVS Combat Pants - Black
+MVS_CombatPants_ERDL  |  MVS Combat Pants - ERDL
+MVS_CombatPants_Multicam  |  MVS Combat Pants - Multicam
+MVS_CombatPants_Multicam_Black  |  MVS Combat Pants - Multicam Black
+MVS_CombatPants_Multicam_Tropic  |  MVS Combat Pants - Multicam Tropic
+MVS_CombatPants_OD  |  MVS Combat Pants - OD
+MVS_CombatPants_Snow  |  MVS Combat Pants - Snow
+MVS_CombatPants_Tan  |  MVS Combat Pants - Tan
+MVS_CombatShirt_Black  |  MVS Combat Shirt - Black
+MVS_CombatShirt_ERDL  |  MVS Combat Shirt - ERDL
+MVS_CombatShirt_Multicam  |  MVS Combat Shirt - Multicam
+MVS_CombatShirt_Multicam_Black  |  MVS Combat Shirt - Multicam Black
+MVS_CombatShirt_Multicam_Tropic  |  MVS Combat Shirt - Multicam Tropic
+MVS_CombatShirt_OD  |  MVS Combat Shirt - OD
+MVS_CombatShirt_Snow  |  MVS Combat Shirt - Snow
+MVS_CombatShirt_Tan  |  MVS Combat Shirt - Tan
+MVS_GorkaJacket  |  MVS Gorka Top - ERDL
+MVS_GorkaJacket_Multicam  |  MVS Gorka Top - Multicam
+MVS_GorkaJacket_Multicam_Black  |  MVS Gorka Top - Multicam Black
+MVS_GorkaJacket_Multicam_Tropic  |  MVS Gorka Top - Multicam Tropic
+MVS_GorkaJacket_Snow  |  MVS Gorka Top - Snow
+MVS_GorkaPants  |  MVS Gorka Pants - ERDL
+MVS_GorkaPants_Multicam  |  MVS Gorka Pants - Multicam
+MVS_GorkaPants_Multicam_Black  |  MVS Gorka Pants - Multicam Black
+MVS_GorkaPants_Multicam_Tropic  |  MVS Gorka Pants - Multicam Tropic
+MVS_GorkaPants_Snow  |  MVS Gorka Pants - Snow
+MVS_Pants_BDU  |  MVS BDU Pants - ERDL
+MVS_Pants_BDU_Snow  |  MVS BDU Pants - Snow
+MVS_Shirt_BDU  |  MVS BDU Top - ERDL
+MVS_Shirt_BDU_Multicam  |  MVS BDU Top - Multicam
+MVS_Shirt_BDU_Multicam_Black  |  MVS BDU Top - Multicam Black
+MVS_Shirt_BDU_Multicam_Tropic  |  MVS BDU Top - Multicam Tropic
+MVS_Shirt_BDU_Snow  |  MVS BDU Top - Snow
+
+======================================================================
+BEARDS
+COUNT: 15
+======================================================================
+MVS_Beard_01_Black  |  MVS Beard 01 - Black
+MVS_Beard_01_Blonde  |  MVS Beard 01 - Blonde
+MVS_Beard_01_Brown  |  MVS Beard - Brown
+MVS_Beard_01_LightBrown  |  MVS Beard - Light Brown
+MVS_Beard_01_White  |  MVS Beard 01 - White
+MVS_Beard_02_Black  |  MVS Beard 02 - Black
+MVS_Beard_02_Blonde  |  MVS Beard 02 - Blonde
+MVS_Beard_02_Brown  |  MVS Beard - Brown
+MVS_Beard_02_LightBrown  |  MVS Beard - Light Brown
+MVS_Beard_02_White  |  MVS Beard 02 - White
+MVS_Beard_03_Black  |  MVS Beard 02 - Black
+MVS_Beard_03_Blonde  |  MVS Beard 02 - Blonde
+MVS_Beard_03_Brown  |  MVS Beard - Brown
+MVS_Beard_03_LightBrown  |  MVS Beard - Light Brown
+MVS_Beard_03_White  |  MVS Beard 02 - White
+
+======================================================================
+PATCHES / COUNTRY FLAGS
+COUNT: 245
+======================================================================
+MVS_CountryFlag_Afghanistan  |  MVS Country Flag - Afghanistan
+MVS_CountryFlag_Albania  |  MVS Country Flag - Albania
+MVS_CountryFlag_Algeria  |  MVS Country Flag - Algeria
+MVS_CountryFlag_AmericanSamoa  |  MVS Country Flag - American Samoa
+MVS_CountryFlag_Andorra  |  MVS Country Flag - Andorra
+MVS_CountryFlag_Angola  |  MVS Country Flag - Angola
+MVS_CountryFlag_Antigua  |  MVS Country Flag - Antigua
+MVS_CountryFlag_Argentina  |  MVS Country Flag - Argentina
+MVS_CountryFlag_Armenia  |  MVS Country Flag - Armenia
+MVS_CountryFlag_Aruba  |  MVS Country Flag - Aruba
+MVS_CountryFlag_Australia  |  MVS Country Flag - Australia
+MVS_CountryFlag_Austria  |  MVS Country Flag - Austria
+MVS_CountryFlag_Azerbaijan  |  MVS Country Flag - Azerbaijan
+MVS_CountryFlag_Azores  |  MVS Country Flag - Azores
+MVS_CountryFlag_Bahamas  |  MVS Country Flag - Bahamas
+MVS_CountryFlag_Bahrain  |  MVS Country Flag - Bahrain
+MVS_CountryFlag_Bangladesh  |  MVS Country Flag - Bangladesh
+MVS_CountryFlag_Barbados  |  MVS Country Flag - Barbados
+MVS_CountryFlag_Belarus  |  MVS Country Flag - Belarus
+MVS_CountryFlag_Belgium  |  MVS Country Flag - Belgium
+MVS_CountryFlag_Belize  |  MVS Country Flag - Belize
+MVS_CountryFlag_Benin  |  MVS Country Flag - Benin
+MVS_CountryFlag_Bermuda  |  MVS Country Flag - Bermuda
+MVS_CountryFlag_Bhutan  |  MVS Country Flag - Bhutan
+MVS_CountryFlag_Bolivia  |  MVS Country Flag - Bolivia
+MVS_CountryFlag_Bosnia  |  MVS Country Flag - Bosnia
+MVS_CountryFlag_Botswana  |  MVS Country Flag - Botswana
+MVS_CountryFlag_Brazil  |  MVS Country Flag - Brazil
+MVS_CountryFlag_BritishVirginIslands  |  MVS Country Flag - British Virgin Islands
+MVS_CountryFlag_BruneiDarussalam  |  MVS Country Flag - Brunei Darussalam
+MVS_CountryFlag_Bulgaria  |  MVS Country Flag - Bulgaria
+MVS_CountryFlag_BurkinaFaso  |  MVS Country Flag - Burkina Faso
+MVS_CountryFlag_Burma  |  MVS Country Flag - Burma
+MVS_CountryFlag_Burundi  |  MVS Country Flag - Burundi
+MVS_CountryFlag_Cambodia  |  MVS Country Flag - Cambodia
+MVS_CountryFlag_Cameroon  |  MVS Country Flag - Cameroon
+MVS_CountryFlag_Canada  |  MVS Country Flag - Canada
+MVS_CountryFlag_CapeVerde  |  MVS Country Flag - Cape Verde
+MVS_CountryFlag_CaymanIslands  |  MVS Country Flag - Cayman Islands
+MVS_CountryFlag_Chad  |  MVS Country Flag - Chad
+MVS_CountryFlag_Chile  |  MVS Country Flag - Chile
+MVS_CountryFlag_China  |  MVS Country Flag - China
+MVS_CountryFlag_Colombia  |  MVS Country Flag - Colombia
+MVS_CountryFlag_Comoros  |  MVS Country Flag - Comoros
+MVS_CountryFlag_CookIslands  |  MVS Country Flag - Cook Islands
+MVS_CountryFlag_CostaRica  |  MVS Country Flag - Costa Rica
+MVS_CountryFlag_Croatia  |  MVS Country Flag - Croatia
+MVS_CountryFlag_Cuba  |  MVS Country Flag - Cuba
+MVS_CountryFlag_Curacao  |  MVS Country Flag - Curacao
+MVS_CountryFlag_Cyprus  |  MVS Country Flag - Cyprus
+MVS_CountryFlag_Czech  |  MVS Country Flag - Czech
+MVS_CountryFlag_Denmark  |  MVS Country Flag - Denmark
+MVS_CountryFlag_Djibouti  |  MVS Country Flag - Djibouti
+MVS_CountryFlag_DominicanRepublic  |  MVS Country Flag - Dominican Republic
+MVS_CountryFlag_EastTimor  |  MVS Country Flag - East Timor
+MVS_CountryFlag_Ecuador  |  MVS Country Flag - Ecuador
+MVS_CountryFlag_Egypt  |  MVS Country Flag - Egypt
+MVS_CountryFlag_ElSalvador  |  MVS Country Flag - El Salvador
+MVS_CountryFlag_Eritrea  |  MVS Country Flag - Eritrea
+MVS_CountryFlag_Estonia  |  MVS Country Flag - Estonia
+MVS_CountryFlag_Ethiopia  |  MVS Country Flag - Ethiopia
+MVS_CountryFlag_FalklandIslands  |  MVS Country Flag - Falkland Islands
+MVS_CountryFlag_Fiji  |  MVS Country Flag - Fiji
+MVS_CountryFlag_Finland  |  MVS Country Flag - Finland
+MVS_CountryFlag_France  |  MVS Country Flag - France
+MVS_CountryFlag_Gabon  |  MVS Country Flag - Gabon
+MVS_CountryFlag_Gambia  |  MVS Country Flag - Gambia
+MVS_CountryFlag_Germany  |  MVS Country Flag - Germany
+MVS_CountryFlag_Ghana  |  MVS Country Flag - Ghana
+MVS_CountryFlag_Gibraltar  |  MVS Country Flag - Gibraltar
+MVS_CountryFlag_Greece  |  MVS Country Flag - Greece
+MVS_CountryFlag_Greenland  |  MVS Country Flag - Greenland
+MVS_CountryFlag_Grenada  |  MVS Country Flag - Grenada
+MVS_CountryFlag_Guam  |  MVS Country Flag - Guam
+MVS_CountryFlag_Guatemala  |  MVS Country Flag - Guatemala
+MVS_CountryFlag_Guinea  |  MVS Country Flag - Guinea
+MVS_CountryFlag_Guyana  |  MVS Country Flag - Guyana
+MVS_CountryFlag_GypsyRomani  |  MVS Country Flag - Gypsy Romani
+MVS_CountryFlag_Haiti  |  MVS Country Flag - Haiti
+MVS_CountryFlag_Honduras  |  MVS Country Flag - Honduras
+MVS_CountryFlag_Hungary  |  MVS Country Flag - Hungary
+MVS_CountryFlag_Iceland  |  MVS Country Flag - Iceland
+MVS_CountryFlag_India  |  MVS Country Flag - India
+MVS_CountryFlag_Indonesia  |  MVS Country Flag - Indonesia
+MVS_CountryFlag_Iran  |  MVS Country Flag - Iran
+MVS_CountryFlag_Iraq  |  MVS Country Flag - Iraq
+MVS_CountryFlag_Ireland  |  MVS Country Flag - Ireland
+MVS_CountryFlag_Israel  |  MVS Country Flag - Israel
+MVS_CountryFlag_Italy  |  MVS Country Flag - Italy
+MVS_CountryFlag_Jamaica  |  MVS Country Flag - Jamaica
+MVS_CountryFlag_Japan  |  MVS Country Flag - Japan
+MVS_CountryFlag_Jordan  |  MVS Country Flag - Jordan
+MVS_CountryFlag_Kazakhstan  |  MVS Country Flag - Kazakhstan
+MVS_CountryFlag_Kenya  |  MVS Country Flag - Kenya
+MVS_CountryFlag_Kiribati  |  MVS Country Flag - Kiribati
+MVS_CountryFlag_Kosovo  |  MVS Country Flag - Kosovo
+MVS_CountryFlag_Kuwait  |  MVS Country Flag - Kuwait
+MVS_CountryFlag_Kyrgyzstan  |  MVS Country Flag - Kyrgyzstan
+MVS_CountryFlag_Laos  |  MVS Country Flag - Laos
+MVS_CountryFlag_Latvia  |  MVS Country Flag - Latvia
+MVS_CountryFlag_Lebanon  |  MVS Country Flag - Lebanon
+MVS_CountryFlag_Lesotho  |  MVS Country Flag - Lesotho
+MVS_CountryFlag_Liberia  |  MVS Country Flag - Liberia
+MVS_CountryFlag_Libya  |  MVS Country Flag - Libya
+MVS_CountryFlag_Lithuania  |  MVS Country Flag - Lithuania
+MVS_CountryFlag_Macau  |  MVS Country Flag - Macau
+MVS_CountryFlag_Macedonia  |  MVS Country Flag - Macedonia
+MVS_CountryFlag_Madagascar  |  MVS Country Flag - Madagascar
+MVS_CountryFlag_Malawi  |  MVS Country Flag - Malawi
+MVS_CountryFlag_Malaysia  |  MVS Country Flag - Malaysia
+MVS_CountryFlag_Maldives  |  MVS Country Flag - Maldives
+MVS_CountryFlag_Mali  |  MVS Country Flag - Mali
+MVS_CountryFlag_Malta  |  MVS Country Flag - Malta
+MVS_CountryFlag_MarshallIslands  |  MVS Country Flag - Marshall Islands
+MVS_CountryFlag_Mauritius  |  MVS Country Flag - Mauritius
+MVS_CountryFlag_Mexico  |  MVS Country Flag - Mexico
+MVS_CountryFlag_Micronesia  |  MVS Country Flag - Micronesia
+MVS_CountryFlag_Moldova  |  MVS Country Flag - Moldova
+MVS_CountryFlag_Monaco  |  MVS Country Flag - Monaco
+MVS_CountryFlag_Mongolia  |  MVS Country Flag - Mongolia
+MVS_CountryFlag_Montenegro  |  MVS Country Flag - Montenegro
+MVS_CountryFlag_Morocco  |  MVS Country Flag - Morocco
+MVS_CountryFlag_Mozambique  |  MVS Country Flag - Mozambique
+MVS_CountryFlag_Namibia  |  MVS Country Flag - Namibia
+MVS_CountryFlag_Nauru  |  MVS Country Flag - Nauru
+MVS_CountryFlag_Netherlands  |  MVS Country Flag - Netherlands
+MVS_CountryFlag_NewZealand  |  MVS Country Flag - New Zealand
+MVS_CountryFlag_Nicaragua  |  MVS Country Flag - Nicaragua
+MVS_CountryFlag_Niger  |  MVS Country Flag - Niger
+MVS_CountryFlag_Nigeria  |  MVS Country Flag - Nigeria
+MVS_CountryFlag_NorthernIreland  |  MVS Country Flag - Northern Ireland
+MVS_CountryFlag_Norway  |  MVS Country Flag - Norway
+MVS_CountryFlag_Oman  |  MVS Country Flag - Oman
+MVS_CountryFlag_Pakistan  |  MVS Country Flag - Pakistan
+MVS_CountryFlag_Palau  |  MVS Country Flag - Palau
+MVS_CountryFlag_Palestine  |  MVS Country Flag - Palestine
+MVS_CountryFlag_Panama  |  MVS Country Flag - Panama
+MVS_CountryFlag_PapuaNewGuinea  |  MVS Country Flag - Papua New Guinea
+MVS_CountryFlag_Paraguay  |  MVS Country Flag - Paraguay
+MVS_CountryFlag_Peru  |  MVS Country Flag - Peru
+MVS_CountryFlag_Philippines  |  MVS Country Flag - Philippines
+MVS_CountryFlag_Poland  |  MVS Country Flag - Poland
+MVS_CountryFlag_Portugal  |  MVS Country Flag - Portugal
+MVS_CountryFlag_PuertoRico  |  MVS Country Flag - Puerto Rico
+MVS_CountryFlag_Qatar  |  MVS Country Flag - Qatar
+MVS_CountryFlag_Romania  |  MVS Country Flag - Romania
+MVS_CountryFlag_Russia  |  MVS Country Flag - Russia
+MVS_CountryFlag_Rwanda  |  MVS Country Flag - Rwanda
+MVS_CountryFlag_Samoa  |  MVS Country Flag - Samoa
+MVS_CountryFlag_SanMarino  |  MVS Country Flag - San Marino
+MVS_CountryFlag_SaudiArabia  |  MVS Country Flag - Saudi Arabia
+MVS_CountryFlag_Scotland  |  MVS Country Flag - Scotland
+MVS_CountryFlag_Senegal  |  MVS Country Flag - Senegal
+MVS_CountryFlag_Serbia  |  MVS Country Flag - Serbia
+MVS_CountryFlag_Seychelles  |  MVS Country Flag - Seychelles
+MVS_CountryFlag_Sicily  |  MVS Country Flag - Sicily
+MVS_CountryFlag_SierraLeone  |  MVS Country Flag - Sierra Leone
+MVS_CountryFlag_Singapore  |  MVS Country Flag - Singapore
+MVS_CountryFlag_Slovakia  |  MVS Country Flag - Slovakia
+MVS_CountryFlag_Slovenia  |  MVS Country Flag - Slovenia
+MVS_CountryFlag_SolomonIslands  |  MVS Country Flag - Solomon Islands
+MVS_CountryFlag_Somalia  |  MVS Country Flag - Somalia
+MVS_CountryFlag_SouthAfrica  |  MVS Country Flag - South Africa
+MVS_CountryFlag_SouthKorea  |  MVS Country Flag - South Korea
+MVS_CountryFlag_SouthVietnam  |  MVS Country Flag - South Vietnam
+MVS_CountryFlag_Spain  |  MVS Country Flag - Spain
+MVS_CountryFlag_SriLanka  |  MVS Country Flag - Sri Lanka
+MVS_CountryFlag_StLucia  |  MVS Country Flag - St Lucia
+MVS_CountryFlag_StMaarten  |  MVS Country Flag - St Maarten
+MVS_CountryFlag_Sudan  |  MVS Country Flag - Sudan
+MVS_CountryFlag_Suriname  |  MVS Country Flag - Suriname
+MVS_CountryFlag_Swaziland  |  MVS Country Flag - Swaziland
+MVS_CountryFlag_Sweden  |  MVS Country Flag - Sweden
+MVS_CountryFlag_Switzerland  |  MVS Country Flag - Switzerland
+MVS_CountryFlag_Syria  |  MVS Country Flag - Syria
+MVS_CountryFlag_Taiwan  |  MVS Country Flag - Taiwan
+MVS_CountryFlag_Tajikistan  |  MVS Country Flag - Tajikistan
+MVS_CountryFlag_Tanzania  |  MVS Country Flag - Tanzania
+MVS_CountryFlag_Thailand  |  MVS Country Flag - Thailand
+MVS_CountryFlag_Tibet  |  MVS Country Flag - Tibet
+MVS_CountryFlag_Togo  |  MVS Country Flag - Togo
+MVS_CountryFlag_Tonga  |  MVS Country Flag - Tonga
+MVS_CountryFlag_Trinidad  |  MVS Country Flag - Trinidad
+MVS_CountryFlag_Tunisia  |  MVS Country Flag - Tunisia
+MVS_CountryFlag_Turkey  |  MVS Country Flag - Turkey
+MVS_CountryFlag_Turkmenistan  |  MVS Country Flag - Turkmenistan
+MVS_CountryFlag_TurksCaicos  |  MVS Country Flag - Turks & Caicos
+MVS_CountryFlag_Tuvalu  |  MVS Country Flag - Tuvalu
+MVS_CountryFlag_UAE  |  MVS Country Flag - UAE
+MVS_CountryFlag_Uganda  |  MVS Country Flag - Uganda
+MVS_CountryFlag_Ukraine  |  MVS Country Flag - Ukraine
+MVS_CountryFlag_UnitedKingdom  |  MVS Country Flag - United Kingdom
+MVS_CountryFlag_UnitedNations  |  MVS Country Flag - United Nations
+MVS_CountryFlag_UnitedStates  |  MVS Country Flag - United States
+MVS_CountryFlag_Uruguay  |  MVS Country Flag - Uruguay
+MVS_CountryFlag_USSR  |  MVS Country Flag - USSR
+MVS_CountryFlag_Uzbekistan  |  MVS Country Flag - Uzbekistan
+MVS_CountryFlag_Vanuatu  |  MVS Country Flag - Vanuatu
+MVS_CountryFlag_Venezuela  |  MVS Country Flag - Venezuela
+MVS_CountryFlag_Vietnam  |  MVS Country Flag - Vietnam
+MVS_CountryFlag_Wales  |  MVS Country Flag - Wales
+MVS_CountryFlag_Yemen  |  MVS Country Flag - Yemen
+MVS_CountryFlag_Yugoslavia  |  MVS Country Flag - Yugoslavia
+MVS_CountryFlag_Zambia  |  MVS Country Flag - Zambia
+MVS_CountryFlag_Zimbabwe  |  MVS Country Flag - Zimbabwe
+MVS_Patch_01  |  Identifier Patch - Squad Leader
+MVS_Patch_02  |  Identifier Patch - Team Leader
+MVS_Patch_03  |  Identifier Patch - Machinegunner
+MVS_Patch_04  |  Identifier Patch - Medic
+MVS_Patch_05  |  Identifier Patch - Sniper
+MVS_Patch_06  |  Identifier Patch - Rifleman
+MVS_Patch_07  |  Identifier Patch - US
+MVS_Patch_08  |  Identifier Patch - UK
+MVS_Patch_09  |  Identifier Patch - AUS
+MVS_Patch_10  |  Identifier Patch - US
+MVS_Patch_11  |  Identifier Patch - UK
+MVS_Patch_12  |  Identifier Patch - AUS
+MVS_Patch_13  |  Identifier Patch - Rotten's Raiders
+MVS_Patch_14  |  Identifier Patch - A10 Warthog
+MVS_Patch_15  |  Identifier Patch - EOD
+MVS_Patch_16  |  Identifier Patch - F*ck Sh*t Up
+MVS_Patch_17  |  Identifier Patch - No F*cks Given
+MVS_Patch_18  |  Identifier Patch - I'm Too Old for This Sh*t
+MVS_Patch_19  |  Identifier Patch - Weyland-Yutani Corp
+MVS_Patch_20  |  Identifier Patch - The Warriors
+MVS_Patch_21  |  Identifier Patch - Canada
+MVS_Patch_22  |  Identifier Patch - Canada
+MVS_Patch_23  |  Identifier Patch - OBEY
+MVS_Patch_24  |  Identifier Patch - Blackwater
+MVS_Patch_25  |  Identifier Patch - Lagoon Trade & Courier Services
+MVS_Patch_26  |  Identifier Patch - HCLI
+MVS_Patch_27  |  Identifier Patch - Boogaloo
+MVS_Patch_28  |  Identifier Patch - UN
+MVS_Patch_29  |  Identifier Patch - Umbrella
+MVS_Patch_30  |  Identifier Patch - Umbrella
+MVS_Patch_31  |  Identifier Patch - Romania
+MVS_Patch_32  |  Identifier Patch - Sweden
+MVS_Patch_33  |  Identifier Patch - Anarchy
+MVS_Patch_34  |  Identifier Patch - RTO
+MVS_Patch_35  |  Identifier Patch - This is the Way
+MVS_Patch_36  |  Identifier Patch - ADMIN
+Proxypatch
+Proxypatch_01
+Proxypatch_02
+Proxypatch_03
+
+======================================================================
+ARMOR RACK / STORAGE
+COUNT: 2
+======================================================================
+Armor_Rack  |  MVS Armor Rack Kit
+ArmorRack_Kit  |  MVS Armor Rack Kit
+
+======================================================================
+OTHER / MISC
+COUNT: 39
+======================================================================
+CfgNonAIVehicles
+MVS_Balaclava_Black  |  MVS Balaclava - Black
+MVS_Balaclava_OD  |  MVS Balaclava - OD
+MVS_Balaclava_Snow  |  MVS Balaclava - Snow
+MVS_Balaclava_Tan  |  MVS Balaclava - Tan
+MVS_Balaclava_Wraith  |  MVS Wraith Mask
+MVS_BoonieHat  |  MVS Boonie Hat - ERDL
+MVS_BoonieHat_Multicam  |  MVS Boonie Hat - Multicam
+MVS_BoonieHat_Multicam_Black  |  MVS Boonie Hat - Multicam Black
+MVS_BoonieHat_Multicam_Tropic  |  MVS Boonie Hat - Multicam Tropic
+MVS_BoonieHat_Snow  |  MVS Boonie Hat - Snow
+MVS_Facemask_Black  |  MVS Facemask - Black
+MVS_Facemask_OD  |  MVS Facemask - OD
+MVS_Facemask_Snow  |  MVS Facemask - Snow
+MVS_Facemask_Tan  |  MVS Facemask - Tan
+MVS_FlatCap  |  MVS Flat Cap - ERDL
+MVS_Rucksack_Black  |  MVS Rucksack - Black
+MVS_Rucksack_ERDL  |  MVS Rucksack - ERDL
+MVS_Rucksack_Multicam  |  MVS Rucksack - Multicam
+MVS_Rucksack_Multicam_Black  |  MVS Rucksack - Multicam Black
+MVS_Rucksack_Multicam_Tropic  |  MVS Rucksack - Multicam Tropic
+MVS_Rucksack_OD  |  MVS Rucksack - OD
+MVS_Rucksack_Snow  |  MVS Rucksack - Snow
+MVS_Rucksack_Tan  |  MVS Rucksack - Tan
+MVS_Shroud_Black  |  MVS Shroud - Black
+MVS_Shroud_OD  |  MVS Shroud - OD
+MVS_Shroud_Tan  |  MVS Shroud - Tan
+ProxyBandage
+ProxyEpinephrine
+Proxymodular_weapon
+Proxymodular_weapon_rack
+ProxyMorphine
+ProxyMVS_Lockpick
+ProxyMVS_Pliers
+ProxyMVS_Screwdriver
+ProxyspawnHeadgear
+ProxyspawnMask
+ProxyspawnPack
+ProxyspawnVest
+
