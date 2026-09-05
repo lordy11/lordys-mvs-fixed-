@@ -11,26 +11,42 @@
   "DebugLogging": false,
   "HelmetOverrides": [
     {
-      "ClassName": "MVS_Altyn_Helmet_Base",
-      "DamageBlockedPercent": 70.0
+      "ClassName": "MVS_Helmet_Base",
+      "DamageBlockedPercent": 50.0
+    },
+    {
+      "ClassName": "MVS_Helmet_2_Base",
+      "DamageBlockedPercent": 50.0
+    },
+    {
+      "ClassName": "MVS_6B47Helmet_Base",
+      "DamageBlockedPercent": 55.0
+    },
+    {
+      "ClassName": "MVS_OpsCore_Base",
+      "DamageBlockedPercent": 60.0
     },
     {
       "ClassName": "MVS_ArmoredHelmet_Base",
       "DamageBlockedPercent": 65.0
     },
     {
-      "ClassName": "MVS_ArmoredHelmet_Black",
-      "DamageBlockedPercent": 80.0
+      "ClassName": "MVS_Altyn_Helmet_Base",
+      "DamageBlockedPercent": 70.0
     }
   ],
   "VestOverrides": [
     {
-      "ClassName": "ModularVestSystem_Heavy",
-      "DamageBlockedPercent": 65.0
+      "ClassName": "ModularChestRig_Base",
+      "DamageBlockedPercent": 35.0
     },
     {
-      "ClassName": "ModularChestRig_Base",
+      "ClassName": "ModularVestSystem_Base",
       "DamageBlockedPercent": 50.0
+    },
+    {
+      "ClassName": "ModularVestSystem_Heavy",
+      "DamageBlockedPercent": 65.0
     }
   ]
 }
