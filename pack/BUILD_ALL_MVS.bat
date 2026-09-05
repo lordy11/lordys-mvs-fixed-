@@ -4,11 +4,14 @@ setlocal
 rem Builds BOTH PBOs that make up the single @MVS mod.
 rem 1) ModularVestSystem.pbo  - original/fixed MVS assets + scripts
 rem 2) FreezesMVSArmor.pbo    - JSON-configurable armour companion
+rem Before packing, InventorySizes.json is applied to MVS cargo grid sizes.
 
 set "PACK_ROOT=%~dp0"
+set "REPO_ROOT=%PACK_ROOT%..\"
 set "MVS_SOURCE=%PACK_ROOT%ModularVestSystem"
 set "ARMOR_SOURCE=%PACK_ROOT%FreezesMVSArmor"
 set "OUTPUT=%PACK_ROOT%output\@MVS\addons"
+set "SIZE_SCRIPT=%REPO_ROOT%APPLY_INVENTORY_SIZES.ps1"
 
 if defined DAYZ_TOOLS (
     set "ADDON_BUILDER=%DAYZ_TOOLS%\Bin\AddonBuilder\AddonBuilder.exe"
@@ -37,6 +40,18 @@ if not exist "%ARMOR_SOURCE%\config.cpp" (
     exit /b 1
 )
 
+if not exist "%SIZE_SCRIPT%" (
+    echo ERROR: Missing inventory size JSON applier:
+    echo   %SIZE_SCRIPT%
+    pause
+    exit /b 1
+)
+
+echo.
+echo [0/2] Applying InventorySizes.json...
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%SIZE_SCRIPT%"
+if errorlevel 1 goto :failed
+
 if not exist "%OUTPUT%" mkdir "%OUTPUT%"
 
 echo.
@@ -60,12 +75,15 @@ echo Expected PBOs:
 echo   addons\ModularVestSystem.pbo
 echo   addons\FreezesMVSArmor.pbo
 echo.
+echo Inventory cargo sizes came from:
+echo   %REPO_ROOT%InventorySizes.json
+echo.
 echo Put any generated .bikey in @MVS\keys and matching .bisign files beside the PBOs.
 pause
 exit /b 0
 
 :failed
 echo.
-echo BUILD FAILED. Check the Addon Builder window/log for the first error.
+echo BUILD FAILED. Check the first error above or the Addon Builder window/log.
 pause
 exit /b 1
