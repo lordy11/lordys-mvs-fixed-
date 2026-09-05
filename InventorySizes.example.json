@@ -1,0 +1,21 @@
+{
+  "ConfigVersion": 1,
+  "Enabled": true,
+  "Rules": [
+    {
+      "ClassName": "ModularChestRig_Base",
+      "CargoWidth": 8,
+      "CargoHeight": 6
+    },
+    {
+      "ClassName": "ModularVestSystem_Base",
+      "CargoWidth": 8,
+      "CargoHeight": 6
+    },
+    {
+      "ClassName": "ModularVestSystem_Heavy",
+      "CargoWidth": 10,
+      "CargoHeight": 8
+    }
+  ]
+}
