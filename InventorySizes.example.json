@@ -3,19 +3,70 @@
   "Enabled": true,
   "Rules": [
     {
+      "Name": "MVS Chest Rig",
       "ClassName": "ModularChestRig_Base",
-      "CargoWidth": 8,
-      "CargoHeight": 6
+      "CargoWidth": 7,
+      "CargoHeight": 5
     },
     {
+      "Name": "MVS Plate Vest",
       "ClassName": "ModularVestSystem_Base",
       "CargoWidth": 8,
       "CargoHeight": 6
     },
     {
+      "Name": "MVS Heavy Vest",
       "ClassName": "ModularVestSystem_Heavy",
       "CargoWidth": 10,
       "CargoHeight": 8
+    },
+    {
+      "Name": "MVS Combat Pack",
+      "ClassName": "MVS_Pack_Base",
+      "CargoWidth": 7,
+      "CargoHeight": 10
+    },
+    {
+      "Name": "MVS Raider Pack",
+      "ClassName": "MVS_Assault_Pack_Tan",
+      "CargoWidth": 8,
+      "CargoHeight": 10
+    },
+    {
+      "Name": "MVS Sling Pack",
+      "ClassName": "MVS_Sling_Pack_Base",
+      "CargoWidth": 8,
+      "CargoHeight": 10
+    },
+    {
+      "Name": "MVS Compact Pack 1",
+      "ClassName": "MVS_Compact_Base",
+      "CargoWidth": 5,
+      "CargoHeight": 10
+    },
+    {
+      "Name": "MVS Compact Pack 2",
+      "ClassName": "MVS_Compact_Base_2",
+      "CargoWidth": 5,
+      "CargoHeight": 10
+    },
+    {
+      "Name": "MVS Rucksack",
+      "ClassName": "MVS_Rucksack_Base",
+      "CargoWidth": 10,
+      "CargoHeight": 12
+    },
+    {
+      "Name": "MVS Combat Pants",
+      "ClassName": "MVS_CombatPants_Base",
+      "CargoWidth": 7,
+      "CargoHeight": 5
+    },
+    {
+      "Name": "MVS Combat Shirt",
+      "ClassName": "MVS_CombatShirt_Base",
+      "CargoWidth": 7,
+      "CargoHeight": 5
     }
   ]
 }
