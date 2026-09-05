@@ -1,0 +1,7 @@
+Place both Addon Builder outputs in this folder:
+
+- ModularVestSystem.pbo
+- FreezesMVSArmor.pbo
+
+Both are required for the complete mod. This text file may be removed from the
+finished server/client copy.
