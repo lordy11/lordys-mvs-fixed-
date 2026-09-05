@@ -1,0 +1,24 @@
+{
+  "ConfigVersion": 1,
+  "Enabled": true,
+  "DefaultHelmetDamageBlockedPercent": 50.0,
+  "DefaultVestDamageBlockedPercent": 50.0,
+  "ProtectAgainstFirearms": true,
+  "ProtectAgainstMelee": true,
+  "ProtectAgainstInfected": true,
+  "ProtectAgainstExplosions": false,
+  "ProtectAgainstOtherDamage": false,
+  "DebugLogging": false,
+  "HelmetOverrides": [
+    {
+      "ClassName": "MVS_Altyn_Helmet_Base",
+      "DamageBlockedPercent": 70.0
+    }
+  ],
+  "VestOverrides": [
+    {
+      "ClassName": "ModularVestSystem_Heavy",
+      "DamageBlockedPercent": 65.0
+    }
+  ]
+}
