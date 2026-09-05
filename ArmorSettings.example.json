@@ -1,5 +1,5 @@
 {
-  "ConfigVersion": 1,
+  "ConfigVersion": 2,
   "Enabled": true,
   "DefaultHelmetDamageBlockedPercent": 50.0,
   "DefaultVestDamageBlockedPercent": 50.0,
@@ -13,12 +13,24 @@
     {
       "ClassName": "MVS_Altyn_Helmet_Base",
       "DamageBlockedPercent": 70.0
+    },
+    {
+      "ClassName": "MVS_ArmoredHelmet_Base",
+      "DamageBlockedPercent": 65.0
+    },
+    {
+      "ClassName": "MVS_ArmoredHelmet_Black",
+      "DamageBlockedPercent": 80.0
     }
   ],
   "VestOverrides": [
     {
       "ClassName": "ModularVestSystem_Heavy",
       "DamageBlockedPercent": 65.0
+    },
+    {
+      "ClassName": "ModularChestRig_Base",
+      "DamageBlockedPercent": 50.0
     }
   ]
 }
