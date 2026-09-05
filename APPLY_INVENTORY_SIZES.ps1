@@ -13,7 +13,7 @@ if (-not (Test-Path $JsonPath)) {
     $example = Join-Path $PSScriptRoot 'InventorySizes.example.json'
     if (Test-Path $example) {
         Copy-Item $example $JsonPath -Force
-        Write-Host "Created InventorySizes.json from the example file."
+        Write-Host 'Created InventorySizes.json from InventorySizes.example.json.'
     } else {
         throw "InventorySizes.json not found: $JsonPath"
     }
@@ -31,6 +31,8 @@ if (-not $settings.Rules) {
 }
 
 $text = Get-Content -Raw -Path $ConfigPath
+$quoteChar = [char]34
+$slashChar = [char]92
 
 function Find-ClassBlock {
     param(
@@ -57,17 +59,17 @@ function Find-ClassBlock {
                 $escape = $false
                 continue
             }
-            if ($ch -eq '\') {
+            if ($ch -eq $script:slashChar) {
                 $escape = $true
                 continue
             }
-            if ($ch -eq '"') {
+            if ($ch -eq $script:quoteChar) {
                 $inString = $false
             }
             continue
         }
 
-        if ($ch -eq '"') {
+        if ($ch -eq $script:quoteChar) {
             $inString = $true
             continue
         }
@@ -99,18 +101,18 @@ function Set-DirectCargoSize {
     )
 
     if ($Width -lt 1 -or $Height -lt 1) {
-        throw "Invalid cargo size for $ClassName. Width and height must both be at least 1."
+        throw "Invalid cargo size for $ClassName. CargoWidth and CargoHeight must both be at least 1."
     }
 
     $block = Find-ClassBlock -Source $Source -ClassName $ClassName
     if (-not $block) {
-        Write-Warning "Class not found: $ClassName"
-        return $Source
+        throw "Class not found in config.cpp: $ClassName"
     }
 
     $body = $Source.Substring($block.BodyStart, $block.BodyLength)
 
-    # Search only at the direct class level, not inside nested DamageSystem/ClothingTypes classes.
+    # Inspect only statements at this class level. Nested classes such as
+    # DamageSystem and ClothingTypes are skipped by brace depth.
     $depth = 0
     $inString = $false
     $escape = $false
@@ -124,12 +126,12 @@ function Set-DirectCargoSize {
 
         if ($inString) {
             if ($escape) { $escape = $false; continue }
-            if ($ch -eq '\') { $escape = $true; continue }
-            if ($ch -eq '"') { $inString = $false }
+            if ($ch -eq $script:slashChar) { $escape = $true; continue }
+            if ($ch -eq $script:quoteChar) { $inString = $false }
             continue
         }
 
-        if ($ch -eq '"') { $inString = $true; continue }
+        if ($ch -eq $script:quoteChar) { $inString = $true; continue }
         if ($ch -eq '{') { $depth++; continue }
         if ($ch -eq '}') { $depth--; continue }
 
@@ -170,19 +172,19 @@ function Set-DirectCargoSize {
         $newBody = $newline + $replacement + $body
     }
 
-    Write-Host ("  {0} -> {1}x{2}" -f $ClassName, $Width, $Height)
+    Write-Host ("  {0} -> cargo {1}x{2}" -f $ClassName, $Width, $Height)
     return $Source.Substring(0, $block.BodyStart) + $newBody + $Source.Substring($block.CloseBrace)
 }
 
 Write-Host 'Applying MVS inventory cargo sizes from JSON...'
 foreach ($rule in $settings.Rules) {
     if (-not $rule.ClassName) {
-        Write-Warning 'Skipped rule with an empty ClassName.'
-        continue
+        throw 'InventorySizes.json contains a rule with an empty ClassName.'
     }
 
     $text = Set-DirectCargoSize -Source $text -ClassName ([string]$rule.ClassName) -Width ([int]$rule.CargoWidth) -Height ([int]$rule.CargoHeight)
 }
 
-Set-Content -Path $ConfigPath -Value $text -Encoding UTF8
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)
+[System.IO.File]::WriteAllText($ConfigPath, $text, $utf8NoBom)
 Write-Host 'Inventory cargo sizes applied to pack\ModularVestSystem\config.cpp'
