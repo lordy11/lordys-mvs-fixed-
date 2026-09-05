@@ -70,16 +70,36 @@ class FMVSArmorManager
         return s_Settings.ProtectAgainstOtherDamage;
     }
 
+    protected static bool IsMVSArmourItem(EntityAI item)
+    {
+        if (!item)
+            return false;
+
+        string typeName = item.GetType();
+        return typeName.IndexOf("MVS_") == 0 || typeName.IndexOf("ModularVestSystem_") == 0;
+    }
+
     protected static float RulePercent(EntityAI item, array<ref FMVSArmorRule> rules, float fallback)
     {
-        if (!item || item.GetType().IndexOf("MVS_") != 0)
+        if (!IsMVSArmourItem(item))
             return 0;
 
-        foreach (FMVSArmorRule rule : rules)
+        string exactType = item.GetType();
+
+        // Exact classname rules always win over inherited/base-class rules.
+        foreach (FMVSArmorRule exactRule : rules)
         {
-            if (rule && rule.ClassName != "" && item.IsKindOf(rule.ClassName))
-                return ClampPercent(rule.DamageBlockedPercent);
+            if (exactRule && exactRule.ClassName != "" && exactType == exactRule.ClassName)
+                return ClampPercent(exactRule.DamageBlockedPercent);
         }
+
+        // Base-class rules apply automatically to every child class that inherits from them.
+        foreach (FMVSArmorRule baseRule : rules)
+        {
+            if (baseRule && baseRule.ClassName != "" && item.IsKindOf(baseRule.ClassName))
+                return ClampPercent(baseRule.DamageBlockedPercent);
+        }
+
         return ClampPercent(fallback);
     }
 
